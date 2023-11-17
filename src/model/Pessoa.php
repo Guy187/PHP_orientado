@@ -1,10 +1,11 @@
 <?php
+namespace App\model;
 
 class Pessoa{
 
- Public $nome;
+ public $nome;
 
-function _construct($nome){
+function __construct($nome){
 $this->nome = $nome;
 }
 }

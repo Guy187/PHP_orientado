@@ -8,10 +8,13 @@ use App\model\Pessoa;
 
 use App\model\Nootbook;
 
-$n = new Nootbook ("lenovo, preto");
-$p = new Pessoa ("huginho");
+$n = new Nootbook("acer");
+$p = new Pessoa("joão");
 
+echo "Usuario";
 echo $p->nome;
+
+echo "<br>";
 
 
 echo $n->marca;
